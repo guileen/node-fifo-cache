@@ -1,0 +1,33 @@
+{
+  "name": "fifo-cache",
+  "version": "0.1.0",
+  "description": "A high performance FIFO cache module with ES6 Map",
+  "main": "lib/fifo-cache.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "bench": "matcha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guileen/node-fifo-cache.git"
+  },
+  "keywords": [
+    "cache",
+    "fifo",
+    "lru"
+  ],
+  "author": "Gui Lin<guileen@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guileen/node-fifo-cache/issues"
+  },
+  "homepage": "https://github.com/guileen/node-fifo-cache#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "lru-cache": "^4.0.1",
+    "matcha": "^0.7.0"
+  }
+}
